@@ -122,6 +122,14 @@ En Ubuntu, nos descargaremos el fichero .deb de la última versión de Pandoc de
 dpkg -i pandoc-1.16.0.2-1-amd64.deb
 ```
 
+**Uso**
+
+Con el comando `pandoc` en la línea de comandos podemos empezar a utilizarlo. Por ejemplo, si queremos pasar este fichero Markdown a HTML introduciremos la siguiente línea:
+
+```
+pandoc index.md -f markdown -t html -s -o index.html
+```
+
 ## Recursos:
 
 - [NodeJS](https://nodejs.org)
