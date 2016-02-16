@@ -83,6 +83,8 @@ En Windows visitaremos la página https://git-scm.com/ para descargarnos el inst
 
 Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
 
+![](images/atom-ejemplo.png)
+
 **Instalación**
 
 Para instalar *Atom* debemos visitar la página https://atom.io/ y descargar el instalador.
@@ -96,11 +98,11 @@ sudo dpkg -i atom-amd64.deb
 
 En Windows iniciaremos el ejecutable descargado para iniciar la instalación de la aplicación.
 
-![](images/atom-ejemplo.png)
-
 ## GitHub Desktop
 
 GitHub Desktop es un entorno gráfico para trabajar con repositorios git. Está disponible para Windows y Mac.
+
+![](images/github-desktop-ejemplo.png)
 
 **Instalación**
 
@@ -109,8 +111,6 @@ Para instalar *GitHub Desktop* debemos visitar la página https://desktop.github
 ![](images/github-desktop.png)
 
 En Windows nos descargaremos un ejecutable que nos permite instalar la aplicación, mientras que en Mac nos descargaremos un fichero comprimido con el programa.
-
-![](images/github-desktop-ejemplo.png)
 
 ## Cloud9
 
