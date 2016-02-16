@@ -106,11 +106,11 @@ GitHub Desktop es un entorno gráfico para trabajar con repositorios git. Está 
 
 Para instalar *GitHub Desktop* debemos visitar la página https://desktop.github.com/ y descargar el instalador en caso de Windows o el fichero comprimido en caso de Mac.
 
-![](images/gh-desktop.png)
+![](images/github-desktop.png)
 
 En Windows nos descargaremos un ejecutable que nos permite instalar la aplicación, mientras que en Mac nos descargaremos un fichero comprimido con el programa.
 
-![](images/gh-desktop-ejemplo.png)
+![](images/github-desktop-ejemplo.png)
 
 ## Cloud9
 
