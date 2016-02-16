@@ -146,6 +146,8 @@ Con el comando `pandoc` en la línea de comandos podemos empezar a utilizarlo. P
 pandoc index.md -f markdown -t html -s -o index.html
 ```
 
+![](images/pandoc-ejemplo.png)
+
 ## Recursos:
 
 - [NodeJS](https://nodejs.org)
