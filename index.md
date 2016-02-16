@@ -55,7 +55,7 @@ Express es una infraestructura de aplicaciones web Node.js mínima y flexible qu
 
 **Instalación**
 
-Para la instalación en Ubuntu introduciremos la siguiente línea en la terminal:
+Para la instalación, tanto en Windows como en Ubuntu, introduciremos la siguiente línea en la terminal:
 
 ```
 npm install express --save
@@ -73,6 +73,12 @@ Para la instalación en Ubuntu introduciremos las siguientes líneas en la termi
 apt-get install git
 ```
 
+Una vez hecho esto ya podremos empezar a usar el comando git.
+
+En Windows visitaremos la página https://git-scm.com/ para descargarnos el instalador. Una vez instalado dispondremos de las terminales Git Bash y Git CMD para utilizar git.
+
+![](images/git.png)
+
 ## Atom
 
 Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
@@ -88,6 +94,10 @@ En Ubuntu, una vez descargado lo instalaremos con la siguiente línea en la term
 sudo dpkg -i atom-amd64.deb
 ```
 
+En Windows iniciaremos el ejecutable descargado para iniciar la instalación de la aplicación.
+
+![](images/atom-ejemplo.png)
+
 ## GitHub Desktop
 
 GitHub Desktop es un entorno gráfico para trabajar con repositorios git. Está disponible para Windows y Mac.
@@ -99,6 +109,8 @@ Para instalar *GitHub Desktop* debemos visitar la página https://desktop.github
 ![](images/gh-desktop.png)
 
 En Windows nos descargaremos un ejecutable que nos permite instalar la aplicación, mientras que en Mac nos descargaremos un fichero comprimido con el programa.
+
+![](images/gh-desktop-ejemplo.png)
 
 ## Cloud9
 
@@ -121,6 +133,8 @@ En Ubuntu, nos descargaremos el fichero .deb de la última versión de Pandoc de
 ```
 dpkg -i pandoc-1.16.0.2-1-amd64.deb
 ```
+
+Para instalarlo en Windows, nos descargaremos el fichero .msi de la última versión de Pandoc desde https://github.com/jgm/pandoc/releases/, este ejecutable instalará lo necesario para poder usar la herramienta.
 
 **Uso**
 
