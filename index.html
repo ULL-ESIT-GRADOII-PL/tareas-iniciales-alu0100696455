@@ -6,6 +6,8 @@
   <meta name="generator" content="pandoc" />
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="stylesheets/normalize.css">
+  <link rel="stylesheet" href="stylesheets/stylesheet.css">
 </head>
 <body>
 <h1 id="tutoriales-para-node.js-express-git-atom-github-desktop-cloud9-y-pandoc">Tutoriales para Node.js, Express, Git, Atom, GitHub Desktop, Cloud9 y Pandoc</h1>
@@ -16,23 +18,22 @@
 
 </div>
 <h3 id="ubuntu">Ubuntu</h3>
-<p><strong>1. Instalación</strong></p>
+<h4>1. Instalación</h4>
 <p>Para la instalación en <em>Ubuntu</em> introduciremos las siguientes líneas en la terminal:</p>
-<pre><code>curl -sL https://deb.nodesource.com/setup | sudo bash -
-
-sudo apt-get install -y nodejs</code></pre>
-<p><strong>2. Uso</strong></p>
+<div id="code"><pre><code>curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install -y nodejs</code></pre></div></div>
+<h4>2. Uso</h4>
 <p>Para empezar a usar <em>Node.js</em> escribiremos el siguiente comando en la terminal:</p>
-<pre><code>nodejs</code></pre>
+<div id="code"><pre><code>nodejs</code></pre></div>
 <h3 id="windows">Windows</h3>
-<p><strong>1. Instalación</strong></p>
+<h4>1. Instalación</h4>
 <p>Para la instalación en <em>Windows</em> nos descargaremos el instalador directamente de la página <a href="http://nodejs.org">nodejs.org</a>.</p>
-<p><strong>2. Uso</strong></p>
+<h4>2. Uso</h4>
 <p>Para empezar a usar <em>Node.js</em> abriremos la aplicación instalada con el mismo nombre, abriéndose así la consola.</p>
 <h3 id="primeros-pasos">Primeros pasos</h3>
 <p>Para probar que todo ha ido bien probaremos lo siguiente:</p>
-<pre><code>console.log(&quot;Hola Mundo&quot;);
-console.log(2+3);</code></pre>
+<div id="code"><pre><code>console.log(&quot;Hola Mundo&quot;);
+console.log(2+3);</code></pre></div>
 <p>La salida de estas líneas debería coincidir con la imagen adjunta.</p>
 <div class="figure">
 <img src="./images/node-primerospasos.png" />
@@ -40,14 +41,14 @@ console.log(2+3);</code></pre>
 </div>
 <h2 id="express">Express</h2>
 <p>Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles.</p>
-<p><strong>Instalación</strong></p>
+<h4>Instalación</h4>
 <p>Para la instalación, tanto en Windows como en Ubuntu, introduciremos la siguiente línea en la terminal:</p>
-<pre><code>npm install express --save</code></pre>
+<div id="code"><pre><code>npm install express --save</code></pre></div>
 <h2 id="git">Git</h2>
 <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
-<p><strong>Instalación</strong></p>
+<h4>Instalación</h4>
 <p>Para la instalación en Ubuntu introduciremos las siguientes líneas en la terminal:</p>
-<pre><code>apt-get install git</code></pre>
+<div id="code"><pre><code>apt-get install git</code></pre></div>
 <p>Una vez hecho esto ya podremos empezar a usar el comando git.</p>
 <p>En Windows visitaremos la página https://git-scm.com/ para descargarnos el instalador. Una vez instalado dispondremos de las terminales Git Bash y Git CMD para utilizar git.</p>
 <div class="figure">
@@ -60,14 +61,14 @@ console.log(2+3);</code></pre>
 <img src="images/atom-ejemplo.png" />
 
 </div>
-<p><strong>Instalación</strong></p>
+<h4>Instalación</h4>
 <p>Para instalar <em>Atom</em> debemos visitar la página https://atom.io/ y descargar el instalador.</p>
 <div class="figure">
 <img src="images/atom.png" />
 
 </div>
 <p>En Ubuntu, una vez descargado lo instalaremos con la siguiente línea en la terminal:</p>
-<pre><code>sudo dpkg -i atom-amd64.deb</code></pre>
+<div id="code"><pre><code>sudo dpkg -i atom-amd64.deb</code></pre></div>
 <p>En Windows iniciaremos el ejecutable descargado para iniciar la instalación de la aplicación.</p>
 <h2 id="github-desktop">GitHub Desktop</h2>
 <p>GitHub Desktop es un entorno gráfico para trabajar con repositorios git. Está disponible para Windows y Mac.</p>
@@ -75,7 +76,7 @@ console.log(2+3);</code></pre>
 <img src="images/github-desktop-ejemplo.png" />
 
 </div>
-<p><strong>Instalación</strong></p>
+<h4>Instalación</h4>
 <p>Para instalar <em>GitHub Desktop</em> debemos visitar la página https://desktop.github.com/ y descargar el instalador en caso de Windows o el fichero comprimido en caso de Mac.</p>
 <div class="figure">
 <img src="images/github-desktop.png" />
@@ -95,13 +96,13 @@ console.log(2+3);</code></pre>
 </div>
 <p>Nos permite registrarnos desde cero o utilizando una cuenta de GitHub o Bitbucket.</p>
 <h2 id="pandoc">Pandoc</h2>
-<p><strong>Instalación</strong></p>
+<h4>Instalación</h4>
 <p>En Ubuntu, nos descargaremos el fichero .deb de la última versión de Pandoc desde https://github.com/jgm/pandoc/releases/, una vez descargado lo instalaremos con la siguiente línea en la terminal:</p>
-<pre><code>dpkg -i pandoc-1.16.0.2-1-amd64.deb</code></pre>
+<div id="code"><pre><code>dpkg -i pandoc-1.16.0.2-1-amd64.deb</code></pre></div>
 <p>Para instalarlo en Windows, nos descargaremos el fichero .msi de la última versión de Pandoc desde https://github.com/jgm/pandoc/releases/, este ejecutable instalará lo necesario para poder usar la herramienta.</p>
-<p><strong>Uso</strong></p>
+<h4>Instalación</h4>
 <p>Con el comando <code>pandoc</code> en la línea de comandos podemos empezar a utilizarlo. Por ejemplo, si queremos pasar este fichero Markdown a HTML introduciremos la siguiente línea:</p>
-<pre><code>pandoc index.md -f markdown -t html -s -o index.html</code></pre>
+<div id="code"><pre><code>pandoc index.md -f markdown -t html -s -o index.html</code></pre></div>
 <div class="figure">
 <img src="images/pandoc-ejemplo.png" />
 

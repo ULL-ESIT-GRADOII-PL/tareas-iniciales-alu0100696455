@@ -1,0 +1,86 @@
+body {
+  box-sizing: border-box;
+  color: white;
+  background: #212121;
+  font-size: 16px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0px 40px 40px 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: grey;
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+h3, h4, h5, h6 {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  color: lightgray;
+}
+
+h2 {
+  font-size: 36px;
+  text-decoration:underline;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+pre {
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  margin-left: 10px;
+}
+
+code {
+  background-color: #000000;
+  color: green;
+  font-family: Courier, 'New Courier', monospace;
+  font-size: 12px;
+}
+
+#code {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 80px;
+}
+
+a {
+  color: white;
+}
