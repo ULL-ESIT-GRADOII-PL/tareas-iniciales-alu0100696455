@@ -1,14 +1,14 @@
 ## Tarea Inicial
 
-Configuración de las herramientas y tecnologías a utilizar en la asignatura Sistemas y Tecnologías Webs.
+Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes.
 
-* NodeJS
+* NodeJS 
 * Express
 * Atom
 * GitHub
 * Cloud9
 * Markdown
 
-[Página personal de prácticas](http://alu0100536652.github.io/)
+[Página personal](http://alu0100696455.github.io/)
 
-[Página de la práctica inicial](http://alu0100536652.github.io/Tutorial-STW/)
+[Página del repositorio](http://alu0100696455.github.io/tareas-iniciales-alu0100696455/)
