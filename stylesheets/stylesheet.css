@@ -84,3 +84,15 @@ code {
 a {
   color: white;
 }
+
+@media screen and (max-width: 1080px) {
+  .large {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  img {
+    width: 90%;
+  }
+}
