@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  margin: 0px 40px 40px 40px;
+  margin: 70px 40px 40px 40px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -83,6 +83,44 @@ code {
 
 a {
   color: white;
+}
+
+a .navbar-brand {
+  text-align: center;
+}
+
+.nav {
+}
+
+.navbar {
+  background: #0d030b;
+  border-color: white;
+}
+
+.navbar-nav > li > a {
+   color: white;
+}
+
+.navbar-nav > a {
+   color: white;
+}
+
+.navbar-nav > li > a:hover {
+  color: #032e20;
+}
+
+.navbar-nav > li > a .active {
+  color: black;
+}
+
+footer {
+  margin-left: -40px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: black;
+  color: white;
+  border-top: 1px solid white;
 }
 
 @media screen and (max-width: 1080px) {
